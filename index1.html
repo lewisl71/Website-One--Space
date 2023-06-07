@@ -1,0 +1,376 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		
+		<!--Metadata-->
+		<meta name="author" content="Lewis">
+		<meta name= "keywords" content = "Basic page, HTML,CSS">
+		<meta charset="UTF-8" >
+		<meta name="description" content="My first webpage">
+
+		<title>Commercialization of Space</title>
+		<link rel="stylesheet" type="text/css" href="style.css">
+		<script src="index.js"></script>
+
+
+		<!-- Internal CSS Styling-->
+		
+	</head>
+
+	<body bgcolor="#92a8d1">
+		<center> <!--Content within tag displayed in the center-->
+			<!-- Inline CSS for the header-->
+			<header style="background-color: rgb(174, 174, 175); color:rgb(54, 0, 0); padding-top: 10px">
+				<h1>The Ongoing Commercialization of Space</h1> 
+				<h4 >Since 2000 the space industry has went through comercialization in practically all aspects.
+					Blue Origin, founded on September 8th 2000, and SpaceX, founded March 14,2002, have pushed 
+					the limits of technology from launch, to human spaceflight. 
+				</h4>
+				<h6>This website simply shows the launch statistics since 2022 of spaceflight. To show the share of 
+					rocket launches by commercial companies increasing. The table below shows stats accumulated in one year, 2022.
+				</h6>
+			</header>
+			
+		<!-- Tables-->
+			
+			<img src="https://th.bing.com/th/id/OIP.hMB3DV8pHXjcqFO3IYLaGQHaE8?w=241&h=180&c=7&r=0&o=5&pid=1.7" 
+			alt="An image of a crew-rated Dragon Capsule"/>
+
+			<img  src="https://th.bing.com/th/id/OIP.6pQi8mN5oOJL9ezQD0Ey1gHaFj?w=241&h=181&c=7&r=0&o=5&pid=1.7"
+			alt="An image of New Shepard, meant for suborbital tourist flights" />
+			
+			<p>A crew rated Dragon Capsule, SpaceX, on the left and a crew rated New Shepard capsule, Blue Origin, on the right.</p>
+		
+		<table border="1">
+			<thead>
+				<th>Country</th>
+				<th>Companies</th>
+				<th>Misson Total</th>
+				<th>Highest Total</th>
+			</thead>
+			<tbody>
+				<tr>
+					<td>USA</td>
+					<td>Spacex, Boeing, ULA, Blue Origin</TD>
+					<td id="total">84</td>
+					<td>Falcon9/Heavy- 61</td>
+				</tr>
+				<tr>
+					<td>Russia</td>
+					<td>Energia</TD>
+					<td id="total">22</td>
+					<td>Soyuz- 19</td>
+				</tr>
+				<tr>
+					<td>China</td>
+					<td>LinkSpace, OneSpace, LandSpace</td>
+					<td id="total">62</td>
+					<td>Long March Family - 53 </td>
+				</tr>
+				<tr>
+					<td>European Union</td>
+					<td>Ariane Group</td>
+					<td id="total">4</td>
+					<td>Ariane- 3</td>
+				</tr>
+				<td>India</td>
+				<td>N/A</td>
+				<td id="total">4</td>
+				<td>SLV Family- 4</td>
+			</tbody>
+			
+			<tfoot>
+				<caption>
+					The highest total is taken from the top launching rocket in each nation. For simplicity.
+					<br>
+					<a href="https://en.wikipedia.org/wiki/2022_in_spaceflight" target="_blank" rel="noopenor noreferrer">Data From Wikipedia</a>
+				</caption>
+			</tfoot>
+		</table>
+	
+		<!--THIS IS A COMMENT-->
+
+		<!--Lists -->
+		
+		<p id="p1">Top Countries</p>
+	
+		<ul class="countries">
+			<li id="usa">
+				The United States
+			</li>
+			<li id="china">
+				China
+			</li>
+			<li id="russia">
+				Russia
+			</li>
+		</ul>
+
+		<p id=entity>Most Successful Rocket Family in 2022</p>
+		<ol>
+			<li id="usa">
+				Falcon 
+			</li>
+			<li id="china">
+				Long March 
+			</li>
+			<li id="russia">
+				Soyuz
+			</li>
+		</ol>
+
+		<p> Timeline Of Commercialization in Space</p>
+		</center>
+			<div class="timeline">
+
+				<div class="timeline__partone">
+					<div class= "timeline__date timeline__date--right"> September 8, 2000</div>
+				</div>
+
+				<div class="timeline__middle">
+					<div class="timeline__point"></div>
+				</div>
+
+				<div class="timeline__partone timeline__partone--bg">
+					<h2 class="timeline__title">Blue Origin Founded</h2>
+					<p class=timeline__paragraph>Blue Origin was founded as a think tank corporation by 
+						Jeff Bezos. The companies goal is to get heavy industry out of Earth and into space.
+						
+					</p>
+				</div>
+				
+
+				<div class="timeline__partone timeline__partone--bg">
+					<h2 class="timeline__title"> SpaceX Founded</h2>
+					<p class=timeline__paragraph>Spacex was founded by Elon Musk, the company has the
+						goal of the colonization of Mars. 
+					</p>
+					</div>
+				
+				<div class="timeline__middle">
+					<div class="timeline__point"></div>
+					<div class="timeline__point"></div>
+				</div>
+
+				<div class="timeline__partone">
+					<div class= "timeline__date"> March 14, 2002</div>
+				</div>
+
+				<div class="timeline__partone">
+					<div class= "timeline__date timeline__date--right"> September 28, 2008</div>
+				</div>
+
+				<div class="timeline__middle">
+					<div class="timeline__point"></div>
+				</div>
+				
+				<div class="timeline__partone timeline__partone--bg">
+					<h2 class="timeline__title">Falcon 1- First Success</h2>
+					<p class=timeline__paragraph>Spacex succesfully launches Falcon1, after 3 failed attempts, becoming the 
+						first private company to send a payload into space. 
+					</p>
+				</div>
+
+				<div class="timeline__partone timeline__partone--bg">
+					<h2 class="timeline__title"> Falcon 9- First Success</h2>
+					<p class=timeline__paragraph>First Successful launch of Falcon 9, after 3 previous attempts.
+						Became first private company to deliver cargo to the ISS.
+						<br>
+						<a href="https://www.youtube.com/watch?v=dLQ2tZEH6G0"target="_blank" rel="noopenor noreferrer">Watch The Launch Here</a>
+					</p>
+					</div>
+
+				<div class="timeline__middle">
+					<div class="timeline__point"></div>
+				</div>
+
+				<div class="timeline__partone">
+					<div class= "timeline__date"> October 8, 2012</div>
+				</div>
+
+				<div class="timeline__partone">
+					<div class= "timeline__date timeline__date--right"> April 29, 2015</div>
+				</div>
+
+				<div class="timeline__middle">
+					<div class="timeline__point"></div>
+				</div>
+				
+				<div class="timeline__partone timeline__partone--bg">
+					<h2 class="timeline__title">New Shepard- First Launch</h2>
+					<p class=timeline__paragraph> The first launch of New Shepard, aimed at suborbital tourism.
+						<br>
+						<a href="https://www.youtube.com/watch?v=rEdk-XNoZpA"target="_blank" rel="noopenor noreferrer">Watch Here</a>	
+					</p>
+				</div>
+
+				<div class="timeline__partone timeline__partone--bg">
+					<h2 class="timeline__title"> Falcon 9- First Land Landing</h2>
+					<p class=timeline__paragraph>First Successful landing of Falcon 9 booster.
+						Became first private company to land orbital class rocket booster.
+						<br>
+						<a href="https://www.youtube.com/watch?v=ANv5UfZsvZQ&t=70s"target="_blank" rel="noopenor noreferrer">Watch The Launch Here</a>
+					</p>
+					</div>
+
+				<div class="timeline__middle">
+					<div class="timeline__point"></div>
+				</div>
+
+				<div class="timeline__partone">
+					<div class= "timeline__date"> December 21, 2015</div>
+				</div>
+
+				<div class="timeline__partone">
+					<div class= "timeline__date timeline__date--right"> April 10, 2016</div>
+				</div>
+
+				<div class="timeline__middle">
+					<div class="timeline__point"></div>
+				</div>
+				
+				<div class="timeline__partone timeline__partone--bg">
+					<h2 class="timeline__title">Falcon 9- First Landing at Sea</h2>
+					<p class=timeline__paragraph> The first Successful landing of Falcon 9 booster on a droneship at sea.
+						<br>
+						<a href="https://www.youtube.com/watch?v=sYmQQn_ZSys"target="_blank" rel="noopenor noreferrer">Watch Here</a>	
+					</p>
+				</div>
+
+				<div class="timeline__partone timeline__partone--bg">
+					<h2 class="timeline__title"> Falcon 9- First Reuse</h2>
+					<p class=timeline__paragraph>First Successful reuse of Falcon 9 booster.
+						First entity to succesfully achieve reuse with an orbital class rocket.
+						<br>
+					</p>
+					</div>
+
+				<div class="timeline__middle">
+					<div class="timeline__point"></div>
+				</div>
+
+				<div class="timeline__partone">
+					<div class= "timeline__date"> March 30, 2017</div>
+				</div>
+
+				<div class="timeline__partone">
+					<div class= "timeline__date timeline__date--right"> February 6, 2018</div>
+				</div>
+
+				<div class="timeline__middle">
+					<div class="timeline__point"></div>
+				</div>
+				
+				<div class="timeline__partone timeline__partone--bg">
+					<h2 class="timeline__title">Falcon Heavy Test Flight</h2>
+					<p class=timeline__paragraph> The first testflight of Falcon Heavy, a superheavy lift class rocket.
+						The only rocket in America of such status at the time.
+						<br>
+						<a href="https://www.youtube.com/watch?v=wbSwFU6tY1c&t=1811s"target="_blank" rel="noopenor noreferrer">Watch Here</a>	
+					</p>
+				</div>
+
+				<div class="timeline__partone timeline__partone--bg">
+					<h2 class="timeline__title"> Falcon 9- First Crew Launch</h2>
+					<p class=timeline__paragraph>DM-2 the first crew launch to the ISS by a private company.
+						<br>
+						<a href="https://www.youtube.com/watch?v=FMi_m9-e9MU"target="_blank" rel="noopenor noreferrer">Watch Here</a>
+						
+					</p>
+					</div>
+
+				<div class="timeline__middle">
+					<div class="timeline__point"></div>
+				</div>
+
+				<div class="timeline__partone">
+					<div class= "timeline__date"> May 30, 2020</div>
+				</div>
+
+				<div class="timeline__partone">
+					<div class= "timeline__date timeline__date--right"> July 20, 2021</div>
+				</div>
+
+				<div class="timeline__middle">
+					<div class="timeline__point"></div>
+				</div>
+				
+				<div class="timeline__partone timeline__partone--bg">
+					<h2 class="timeline__title">New Shepard First Crew</h2>
+					<p class=timeline__paragraph>First Crew launch of New Shepard with founder, Jeff Bezos, on board.
+						<br>
+						<a href="https://www.youtube.com/watch?v=tMHhXzpwupU"target="_blank" rel="noopenor noreferrer">Watch Here</a>	
+					</p>
+				</div>
+
+				<div class="timeline__partone timeline__partone--bg">
+					<h2 class="timeline__title">Starship SuperHeavy- Test Flight </h2>
+					<p class=timeline__paragraph>First Test Flight of SpaceX's next generation rocket.
+						Part of NASA's return to the moon. Spacex hopes to begin colonization with this rocket.
+						<br>
+						<a href="https://www.youtube.com/watch?v=-1wcilQ58hI"target="_blank" rel="noopenor noreferrer">Watch Here</a>
+						
+					</p>
+					</div>
+
+				<div class="timeline__middle">
+					<div class="timeline__point"></div>
+					<div class="timeline__point timeline__point--bottom"></div>
+				</div>
+
+				<div class="timeline__partone">
+					<div class= "timeline__date"> April 20, 2023</div>
+				</div>
+
+			</div>
+
+			<center>
+			<h2>Join Our Forum</h2>
+			<p>Please Enter The Information Below</p>
+			<form action ="process.php" method = "POST">
+				<div><!-- Wrapping tags for new line-->
+				<label> First Name </label>
+				<input type="text" name ="firstName" placeholder="Enter first name">
+				</div>
+				<br><!-- Line Break-->
+				<div>
+				<label class="last"> Last Name </label>
+				<input type ="text" name="lastName" placeholder="Enter last name ">
+				</div>
+				<br>
+				<div>
+					<label class="email"> Email </label>
+					<input type ="email" name="email" placeholder="johndoe@gmail.com">
+				</div>
+				<br>
+				<div>
+					<label class="gender"> Gender </label>
+					<select name="gender">
+						<option value="male">Male</option>
+						<option value="female">Female</option>
+						<option value ="other">Other</option>
+					</select>
+				</div>
+				<br>
+				<div>
+					<label class="age">Age: </label>
+					<input type="number" name="age" value="30">
+				</div>
+				<br>
+				<div>
+					<label class="birth">Birthday:</label>
+					<input type="date" name="birthday">
+				</div>
+				<br>
+				<input type="submit" name="submit" value="Submit">
+			</form>
+		</center>
+			
+		
+			
+		<footer>
+
+		</footer>
+		
+	</body>
+</html>
